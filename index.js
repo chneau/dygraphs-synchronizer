@@ -197,4 +197,7 @@ function attachSelectionHandlers(gs, prevCallbacks) {
   }
 }
 
-module.exports = synchronize;
+module.exports = {
+  synchronize:synchronize,
+  helloBanana:function(){console.log("HELLO BANANA !")}
+};
