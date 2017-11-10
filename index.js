@@ -1,16 +1,17 @@
 Dygraph = require('dygraphs');
+
 (function() {
-/* global Dygraph:false */
-'use strict';
+  /* global Dygraph:false */
+  'use strict';
 
-var Dygraph;
-if (window.Dygraph) {
-  Dygraph = window.Dygraph;
-} else if (typeof(module) !== 'undefined') {
-  Dygraph = require('../dygraph');
-}
+  var Dygraph;
+  if (window.Dygraph) {
+    Dygraph = window.Dygraph;
+  } else if (typeof(module) !== 'undefined') {
+    Dygraph = require('../dygraph');
+  }
 
-var synchronize = function(/* dygraphs..., opts */) {
+  var synchronize = function(/* dygraphs..., opts */) {
   if (arguments.length === 0) {
     throw 'Invalid invocation of Dygraph.synchronize(). Need >= 1 argument.';
   }
@@ -35,7 +36,7 @@ var synchronize = function(/* dygraphs..., opts */) {
     }
   };
 
-  if (arguments[0] instanceof Dygraph) {
+  if (true) {
     // Arguments are Dygraph objects.
     for (var i = 0; i < arguments.length; i++) {
       if (arguments[i] instanceof Dygraph) {
