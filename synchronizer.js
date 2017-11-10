@@ -197,4 +197,5 @@ function attachSelectionHandlers(gs, prevCallbacks) {
   }
 }
 
-Dygraph.synchronize = synchronize;
+
+export { synchronize };
