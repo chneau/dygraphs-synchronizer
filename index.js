@@ -23,7 +23,7 @@ var synchronize = function(/* dygraphs..., opts */) {
     }
   };
 
-  if (arguments[0] instanceof Dygraph) {
+  if (true) {
     // Arguments are Dygraph objects.
     for (var i = 0; i < arguments.length; i++) {
       if (arguments[i] instanceof Dygraph) {
