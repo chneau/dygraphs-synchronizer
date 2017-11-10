@@ -197,5 +197,4 @@ function attachSelectionHandlers(gs, prevCallbacks) {
   }
 }
 
-
-exports.synchronize=synchronize;
+module.exports = synchronize;
