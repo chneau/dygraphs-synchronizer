@@ -1,3 +1,4 @@
+Dygraph = require('dygraphs');
 (function() {
 /* global Dygraph:false */
 'use strict';
