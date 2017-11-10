@@ -1,3 +1,4 @@
+Dygraph = require('dygraphs');
 var synchronize = function(/* dygraphs..., opts */) {
   if (arguments.length === 0) {
     throw 'Invalid invocation of Dygraph.synchronize(). Need >= 1 argument.';
